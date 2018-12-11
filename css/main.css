@@ -1,0 +1,95 @@
+#topbanner {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  
+  #buttondiv {
+    width: 200px;
+    height: 100px;
+    margin-left: 15%;
+    margin-top: 25px;
+  }
+
+  #addbtn {
+    width: 135px;
+    height: 85;
+  }
+
+  #rowheader {
+    font-size: 30px;
+    text-align: right;
+  }
+
+  #row1 {
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border: 3px solid darkblue;
+  }
+
+  #row2 {
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border: 3px solid darkblue;
+  }
+
+  #row3 {
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border: 3px solid darkblue;
+  }
+
+  #row4 {
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border: 3px solid darkblue;
+  }
+
+  #row5 {
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border: 3px solid darkblue;
+  }
+
+  #denterdiv {
+    width: auto;
+    font-size: 26px;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+
+  #afood {
+    width: 350px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  #calories {
+    height: 20px;
+    font-size: 14px;
+  }
+
+  #dbtndiv {
+    width: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+
+  #savestyle {
+    width: 115px;
+    height: 50px;
+  }
