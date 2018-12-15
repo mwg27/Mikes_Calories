@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<!--
+	Mikes Gut
+	CIT 261	
+-->
+<html>
+	<head>
+		<title>Mikes Gut</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/mysite.js" ></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>	
+		<script type="text/javascript">
+			$( window ).load(function() {
+				loadCalories();
+    		});
+		</script>	
+	</head>
+	<body>
+		<!-- Header -->
+		<div id="topbanner"> Mikes Gut </div>
+		<div id=buttondiv><a href="addfood.html"><img id="addbtn" src="img/ButtonBase.jpg"></a></div>
+		<div>
+			<table id="tablestyle">
+				<thead>
+				</thead>
+				<tbody>
+					<tr id="tablerow"><th id=rowheader>Today:</th><td><div id="row1"> 3000 </div></td></tr>
+					<tr id="tablerow"><th id=rowheader>Yesterday:</th><td id="row2"> 3100 </td></tr>
+					<tr id="tablerow"><th id=rowheader>2 days ago:</th><td id="row3"> 3200 </td></tr>
+					<tr id="tablerow"><th id=rowheader>3 days ago:</th><td id="row4"> 3300 </td></tr>
+					<tr id="tablerow"><th id=rowheader>4 days ago:</th><td id="row5"> 3400 </td></tr>					
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>
